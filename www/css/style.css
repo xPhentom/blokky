@@ -1,0 +1,37 @@
+/* Empty. Add your own CSS if you like */
+
+.title {
+  /*background-color: #1A7F00;*/
+  color: #DFF575 !important;
+  font-size: 150% !important;
+  /*margin-left:-5%;*/
+}
+
+#completed {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+#trophy {
+  display: block;
+  margin: auto;
+  width: 20%;
+  margin-left: 37%;
+  margin-top: 5%;
+  font-size: 8em;
+  margin-bottom: 10%;
+}
+
+#MainTimer {
+  text-align: center;
+}
+
+.completedbuttons {
+  margin-bottom: 5%;
+}
+
+h1 {
+  margin-left: 2%;
+}

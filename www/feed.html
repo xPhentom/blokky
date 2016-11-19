@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+  <link rel="manifest" href="manifest.json">
+  <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+</head>
+
+<body ng-app="starter">
+  <ion-pane>
+    <ion-header-bar class="bar-balanced">
+      <h1 class="title">Blokky</h1>
+    </ion-header-bar>
+    <ion-content>
+        <h1>Feed</h1>
+        <div class="list">
+            <a class="item item-thumbnail-left" href="#">
+            <img src="img/wouter.jpg"> <!-- url to profile -->
+            <h2>Leer Roozewouter</h2>
+                <p>@Jeroen I outrecord you with my 101 pushups dude, get on my level! #evenbetter</p>
+            </a>
+            <a class="item item-thumbnail-left" href="#">
+            <img src="img/kevin.jpg"> <!-- url to profile -->
+            <h2>Keval Ingoet</h2>
+                <p>During my break, I finally moved out of <br> my chair! Had to do about 2000 steps. #Meh #Easy</p>
+            </a>
+            <a class="item item-thumbnail-left" href="#">
+            <img src="img/robin.jpg"> <!-- url to profile -->
+            <h2>Robel Kinchtermans</h2>
+                <p>Sat against the wall for 20 seconds! 10 seconds wrong though, still legit! #hero #kippenbilletjes</p>
+            </a>
+            <a class="item item-thumbnail-left" href="#">
+            <img src="img/jeroen.jpg"> <!-- url to profile -->
+            <h2>Jeroen DP</h2>
+                <p>I just did 100 pushups AND ate an apple during my study break! #proud #newrecord #stuDYING</p>
+            </a>
+        </div>
+    </ion-content>
+    <div class="tabs tabs-icon-left">
+      <a href="index.html" class="tab-item">
+        <i class="icon ion-home"></i> Home
+      </a>
+      <a href="feed.html" class="tab-item">
+        <i class="icon ion-ios-list"></i> Feed
+      </a>
+      <a href="profile.html" class="tab-item">
+        <i class="icon ion-person"></i> Profile
+      </a>
+    </div>
+  </ion-pane>
+</body>
+
+</html>
