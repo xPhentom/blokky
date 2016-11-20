@@ -2,7 +2,7 @@
 
 .title {
   /*background-color: #1A7F00;*/
-  color: #DFF575 !important;
+  color: white !important;
   font-size: 150% !important;
   /*margin-left:-5%;*/
 }
@@ -24,7 +24,18 @@
   margin-bottom: 10%;
 }
 
+#card {
+  vertical-align: middle;
+}
+
 #MainTimer {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 500%;
+}
+
+#challenge{
   text-align: center;
 }
 
@@ -34,4 +45,17 @@
 
 h1 {
   margin-left: 2%;
+}
+
+#TrophyCenter{
+  text-align: center;
+  margin: 0 auto;
+}
+
+ion-header-bar{
+
+}
+
+#blockNot {
+  border-style: none;
 }
