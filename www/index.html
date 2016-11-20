@@ -33,12 +33,12 @@
       <h1 class="title">Blokky</h1>
     </ion-header-bar>
     <ion-content>
-      <ion-checkbox ng-model="filter.red">Block notifications</ion-checkbox>
       <div class="card">
         <div class="item item-text-wrap">
           <div id="MainTimer">00:50:00</div>
         </div>
       </div>
+      <ion-checkbox id="blockNot" ng-model="filter.red">Block notifications</ion-checkbox>
       <a href="http://localhost:8000/challenge.html"> <button class="button button-balanced col col-33 col-offset-33" id="startbtn">
    Start 
 </button> </a>
